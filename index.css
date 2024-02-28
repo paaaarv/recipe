@@ -67,5 +67,27 @@ p, li, nav, input{
 #search svg{
     stroke: #f2f2f2;
     background-color: #EB5428;
-    
+
+}
+nav{
+    position: absolute;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    width: inherit;
+}
+nav ul{
+    width: inherit;
+}
+nav li{
+    display: none;
+}
+nav li:first-child {
+    display:inline-block;
+    float:left;
+}
+nav li:last-child{
+    display:inline-block;
+    float:right;
 }
