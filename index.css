@@ -1,11 +1,13 @@
 body
 {
+    margin: 0 auto;
     width: 375px;
 
 }
 h1{
     font-family: "Bebas Neue", sans-serif; 
     font-size:40px;
+    text-align: center;
 }
 h2{
     font-family: "Bebas Neue", sans-serif; 
@@ -48,4 +50,14 @@ p, li, nav, input{
 
 #street-taco img{
     width: inherit;
+}
+#search{
+    position: absolute;
+    top: 50px;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    width: inherit;
+    justify-content: center;
+
 }
