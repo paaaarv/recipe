@@ -1,0 +1,51 @@
+body
+{
+    width: 375px;
+
+}
+h1{
+    font-family: "Bebas Neue", sans-serif; 
+    font-size:40px;
+}
+h2{
+    font-family: "Bebas Neue", sans-serif; 
+    font-size:30px
+}
+h3{
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 25px;
+}
+nav a{
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 20px;
+}
+#social li{
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 20px;
+}
+footer {
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 20px;
+}
+p, li, nav, input{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.actions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.actions div{
+    display:grid;
+    grid-template-columns: 1fr;
+    width: 100px;
+
+}
+#street-taco{
+    width:100%;
+}
+
+#street-taco img{
+    width: inherit;
+}
